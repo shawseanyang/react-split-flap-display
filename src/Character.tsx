@@ -39,6 +39,7 @@ const Character = styled.div<StyleProps>`
     z-index: 5;
     background: transparent;
     border-bottom: ${({ background, borderWidth }): string => `${background} ${borderWidth} solid`};
+    box-sizing: initial;
   }
 `;
 
